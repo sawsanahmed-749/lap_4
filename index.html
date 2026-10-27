@@ -80,7 +80,16 @@
             gap: 70px;
             margin-bottom: 10px;
         }
+         
+        .side-bar a {
+    color: #1e4f7a;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
+.side-bar a:hover {
+    color: #00a6b2;
+}
         .side-bar {
             width: 20%;
             min-height: 400px;
@@ -230,10 +239,11 @@
                 <p>Explore activities and opportunities available to our members.</p>
 
                 <ul>
-                    <li>Upcoming Events</li>
-                    <li>Learning Resources</li>
-                    <li>Join the Club</li>
-                </ul>
+    <li><a href="#events">Upcoming Events</a></li>
+    <li><a href="#resources">Learning Resources</a></li>
+    <li><a href="#join">Join the Club</a></li>
+</ul>
+             
 
                 <div class="meeting">
                     <strong>Weekly meet-up</strong><br>
@@ -255,7 +265,7 @@
                 </div>
 
                 <div class="section">
-                    <h3>About Our Club</h3>
+                    <h3 id="about">About Our Club</h3>
                     <p>
                         Our mission is to help students build practical skills through hands-on
                         workshops, mini projects and knowledge-sharing sessions. Everyone is welcome,
@@ -264,7 +274,7 @@
                 </div>
 
                 <div class="section">
-                    <h3>Upcoming Activities</h3>
+                    <h3 id="events">Upcoming Activities</h3>
                     <ul>
                         <li><strong>HTML & CSS Workshop:</strong> Create your first website.</li>
                         <li><strong>Hackathon Day:</strong> Build an idea with your team.</li>
@@ -273,7 +283,7 @@
                 </div>
 
                 <div>
-                    <h3>Learning Resources</h3>
+                    <h3 id="resources">Learning Resources</h3>
                     <p>
                         Start learning with free tutorials at
                         <a href="https://www.w3schools.com" target="_blank">W3 Schools</a>.
